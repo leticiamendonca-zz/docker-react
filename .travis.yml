@@ -1,7 +1,6 @@
 sudo: required
 services:
   - docker
-
 before_install:
   - docker build -t letsya68/docker-react -f Dockerfile.dev .
 script:
